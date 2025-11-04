@@ -14,7 +14,9 @@ import java.util.List;
 class RouteController {
     private final RouteService routeService;
 
-    RouteController(RouteService routeService) {
+    RouteController(
+            RouteService routeService
+    ) {
         this.routeService = routeService;
     }
 
