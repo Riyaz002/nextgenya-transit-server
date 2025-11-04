@@ -2,12 +2,14 @@ package com.nextgenya.transit_server.feature.route.service;
 
 import com.nextgenya.transit_server.feature.route.dto.VehicleRoute;
 import com.nextgenya.transit_server.feature.route.model.VehicleType;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@Service
 public class RouteServiceImpl implements RouteService {
 
 
